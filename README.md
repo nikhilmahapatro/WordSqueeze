@@ -16,7 +16,8 @@ WordSqueeze is a simple text summarization tool built with **spaCy** and **Strea
 ---
 
 ## 🖼️ Demo
-![Demo_1]  
+![Demo Screenshot](Demo_1.png)
+![Demo Screenshot](Demo_2.png)
 
 ---
 

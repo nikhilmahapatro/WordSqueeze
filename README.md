@@ -16,7 +16,7 @@ WordSqueeze is a simple text summarization tool built with **spaCy** and **Strea
 ---
 
 ## 🖼️ Demo
-*(Insert screenshot of your Streamlit UI here)*  
+![Demo_1]  
 
 ---
 

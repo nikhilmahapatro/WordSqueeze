@@ -4,6 +4,13 @@
 import streamlit as st
 import spacy
 import heapq
+import subprocess
+
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+    nlp = spacy.load("en_core_web_sm")
 
 # Loading spacy model
 nlp = spacy.load("en_core_web_sm")
@@ -68,4 +75,5 @@ if st.button("Summarize"):
         st.subheader("Summary")
         st.write(summary)
     else:
+
         st.warning("Please enter some text first.")
